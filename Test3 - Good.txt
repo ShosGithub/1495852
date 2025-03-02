@@ -1,0 +1,999 @@
+2025-03-02T15:10:00.064000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.8791f25818d3686862a483205b36444685a25e5d.firefox.win64-opt
+2025-03-02T15:10:00.064000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:00.064000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:00.064000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:00.074000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:01.098000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-opt HTTP/11" 404 450
+2025-03-02T15:10:01.098000: DEBUG : taskcluster.utils: Received HTTP Status:    404
+2025-03-02T15:10:01.098000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:09:59 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '450', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'a8a8cfaf69adb512f890d271f51556bf', 'x-for-request-id': 'ad17b0e2-ca4e-402b-bd65-ca9cead8bfc0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1c2-lCOmo+mZoT7kONQ+1UT4n/RIKVI"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:01.098000: DEBUG : nothing found via route 'gecko.v2.mozilla-release.shippable.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-opt'
+2025-03-02T15:10:01.098000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-opt'
+2025-03-02T15:10:01.098000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:01.098000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-opt
+2025-03-02T15:10:01.098000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-opt'}
+2025-03-02T15:10:01.098000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-opt'}
+2025-03-02T15:10:01.098000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-opt
+2025-03-02T15:10:01.098000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:01.098000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:01.098000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-opt
+2025-03-02T15:10:01.098000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:01.098000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:01.101000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:01.121000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.6d9fa1b90d866d433bd85426f10778b84c9e5d00.firefox.win64-opt HTTP/11" 200 238
+2025-03-02T15:10:01.121000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:01.121000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:09:59 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '238', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '745a61c0a204f7b20b3493d9fc0fee39', 'x-for-request-id': 'b342ab15-764a-4059-a1a5-885d2945985f', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"ee-UFpzya3pxiutiK06Mp2b78H7XmE"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:01.123000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:01.123000: DEBUG : taskcluster.client: Found a positional argument: JZbQAO71TMqrcaExmVQwnA
+2025-03-02T15:10:01.123000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'JZbQAO71TMqrcaExmVQwnA'}
+2025-03-02T15:10:01.123000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'JZbQAO71TMqrcaExmVQwnA'}
+2025-03-02T15:10:01.123000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/JZbQAO71TMqrcaExmVQwnA/status
+2025-03-02T15:10:01.123000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:01.123000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:01.123000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/JZbQAO71TMqrcaExmVQwnA/status
+2025-03-02T15:10:01.123000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:01.123000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:01.123000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.8791f25818d3686862a483205b36444685a25e5d.firefox.win64-opt HTTP/11" 200 238
+2025-03-02T15:10:01.123000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:01.123000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:09:59 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '238', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'f1003a707bc8adb0e9b52fbfcd241c04', 'x-for-request-id': 'f5999a79-f458-45cb-a02f-9ddf033ab62a', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"ee-B6ksqW29bhlWN8UrGfmsT1lji+8"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:01.127000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:01.127000: DEBUG : taskcluster.client: Found a positional argument: BjYwdXKoS9iJo3fsHSiecA
+2025-03-02T15:10:01.127000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'BjYwdXKoS9iJo3fsHSiecA'}
+2025-03-02T15:10:01.127000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'BjYwdXKoS9iJo3fsHSiecA'}
+2025-03-02T15:10:01.127000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/BjYwdXKoS9iJo3fsHSiecA/status
+2025-03-02T15:10:01.127000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:01.127000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:01.127000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/BjYwdXKoS9iJo3fsHSiecA/status
+2025-03-02T15:10:01.127000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:01.127000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:01.127000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:01.127000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:01.808000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/BjYwdXKoS9iJo3fsHSiecA/status HTTP/11" 200 862
+2025-03-02T15:10:01.808000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:01.808000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '862', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'fa21772759274d11ad394284ff0fb703', 'x-for-request-id': '31a5bf40-f465-4650-85de-70378cba2d95', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"35e-aip4RmDzXvZAFOx5ADTTG+m+YjM"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:01.811000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/JZbQAO71TMqrcaExmVQwnA/status HTTP/11" 200 862
+2025-03-02T15:10:01.811000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:01.811000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '862', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'ec47268922096a3d061c1680dd6ca460', 'x-for-request-id': '7ba9645f-6657-467a-8f40-4c5752f7fb1c', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"35e-DPJ7m9BfSrHNXB02DsD9w+WDnfU"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:01.815000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:01.815000: DEBUG : taskcluster.client: Found a positional argument: BjYwdXKoS9iJo3fsHSiecA
+2025-03-02T15:10:01.815000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:10:01.815000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'BjYwdXKoS9iJo3fsHSiecA', 'runId': 0}
+2025-03-02T15:10:01.820000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:01.820000: DEBUG : taskcluster.client: Found a positional argument: JZbQAO71TMqrcaExmVQwnA
+2025-03-02T15:10:01.820000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'BjYwdXKoS9iJo3fsHSiecA', 'runId': 0}
+2025-03-02T15:10:01.820000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-opt HTTP/11" 404 440
+2025-03-02T15:10:01.820000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:10:01.820000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/BjYwdXKoS9iJo3fsHSiecA/runs/0/artifacts
+2025-03-02T15:10:01.820000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:01.820000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'JZbQAO71TMqrcaExmVQwnA', 'runId': 0}
+2025-03-02T15:10:01.820000: DEBUG : taskcluster.utils: Received HTTP Status:    404
+2025-03-02T15:10:01.820000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:01.820000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'JZbQAO71TMqrcaExmVQwnA', 'runId': 0}
+2025-03-02T15:10:01.820000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '440', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '1f786d4427ffbc7e98ecb6af34ea8538', 'x-for-request-id': '6b160d57-162f-428d-9c93-b31d1eb4b030', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1b8-t7yrmvwY8+ZOvpgMMduRMk71eis"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:01.820000: DEBUG : nothing found via route 'gecko.v2.mozilla-release.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-opt'
+2025-03-02T15:10:01.820000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/BjYwdXKoS9iJo3fsHSiecA/runs/0/artifacts
+2025-03-02T15:10:01.825000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-pgo'
+2025-03-02T15:10:01.825000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/JZbQAO71TMqrcaExmVQwnA/runs/0/artifacts
+2025-03-02T15:10:01.825000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:01.825000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:01.825000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:01.825000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:01.825000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-pgo
+2025-03-02T15:10:01.825000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:01.825000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/JZbQAO71TMqrcaExmVQwnA/runs/0/artifacts
+2025-03-02T15:10:01.825000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-pgo'}
+2025-03-02T15:10:01.825000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-pgo'}
+2025-03-02T15:10:01.825000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:01.825000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-pgo
+2025-03-02T15:10:01.825000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:01.825000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:01.825000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:01.825000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:01.825000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-pgo
+2025-03-02T15:10:01.825000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:01.832000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:01.833000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:01.836000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:02.397000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-pgo HTTP/11" 404 440
+2025-03-02T15:10:02.397000: DEBUG : taskcluster.utils: Received HTTP Status:    404
+2025-03-02T15:10:02.397000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '440', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '082a083875e654da5bc3e004ee619331', 'x-for-request-id': '495cccca-28db-4537-a86f-ab19aa287518', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1b8-BN1fVnTNy4gCz8hPbV4ZYgeSeNE"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:02.397000: DEBUG : nothing found via route 'gecko.v2.mozilla-release.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-pgo'
+2025-03-02T15:10:02.399000: WARNING : Skipping build da514dc43a8b: Unable to find build info using the taskcluster route 'gecko.v2.mozilla-release.shippable.revision.da514dc43a8ba547d1be5d2c32655c2842ecb518.firefox.win64-opt'
+2025-03-02T15:10:02.399000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/JZbQAO71TMqrcaExmVQwnA/runs/0/artifacts HTTP/11" 200 None
+2025-03-02T15:10:02.399000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:02.399000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '7d99e2384914dcafac78c2131a39e7f9', 'x-for-request-id': 'aad7d9b6-1590-49dc-afc2-c8a83b34aecf', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1bff-VX8JYxTkovkR5hs25xdCXojRhTk"', 'Strict-Transport-Security': 'max-age=31536000', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+2025-03-02T15:10:02.400000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:02.400000: DEBUG : taskcluster.client: Found a positional argument: JZbQAO71TMqrcaExmVQwnA
+2025-03-02T15:10:02.400000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:10:02.400000: DEBUG : taskcluster.client: Found a positional argument: public/build/target.zip
+2025-03-02T15:10:02.400000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'JZbQAO71TMqrcaExmVQwnA', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:10:02.400000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'JZbQAO71TMqrcaExmVQwnA', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:10:02.403000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/BjYwdXKoS9iJo3fsHSiecA/runs/0/artifacts HTTP/11" 200 None
+2025-03-02T15:10:02.403000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:02.403000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:00 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'ec3bc27c24aefd9d744f7f63222c6592', 'x-for-request-id': '509cadd9-3c4a-4c5c-8ce8-c01bb25c6c97', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1e2e-t9LG7uu/5CGC+U/F/aXjUvALs/M"', 'Strict-Transport-Security': 'max-age=31536000', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+2025-03-02T15:10:02.406000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:02.406000: DEBUG : taskcluster.client: Found a positional argument: BjYwdXKoS9iJo3fsHSiecA
+2025-03-02T15:10:02.406000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:10:02.406000: DEBUG : taskcluster.client: Found a positional argument: public/build/target.zip
+2025-03-02T15:10:02.406000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'BjYwdXKoS9iJo3fsHSiecA', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:10:02.406000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'BjYwdXKoS9iJo3fsHSiecA', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:10:02.406000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.shippable.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-opt'
+2025-03-02T15:10:02.406000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:02.406000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.shippable.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-opt
+2025-03-02T15:10:02.406000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-opt'}
+2025-03-02T15:10:02.406000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-opt'}
+2025-03-02T15:10:02.406000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-opt
+2025-03-02T15:10:02.406000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:02.406000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:02.406000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-opt
+2025-03-02T15:10:02.406000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:02.406000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:02.406000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:03.016000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-opt HTTP/11" 404 450
+2025-03-02T15:10:03.016000: DEBUG : taskcluster.utils: Received HTTP Status:    404
+2025-03-02T15:10:03.016000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '450', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '883f55be00e1543670e9a5341f8e577f', 'x-for-request-id': 'f9f269dd-65db-4ad6-9e3b-907978ca0f01', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1c2-aimGRFvaplfPKI/zOnx2A+gqmiI"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:03.016000: DEBUG : nothing found via route 'gecko.v2.mozilla-release.shippable.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-opt'
+2025-03-02T15:10:03.016000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-opt'
+2025-03-02T15:10:03.016000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:03.016000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-opt
+2025-03-02T15:10:03.016000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-opt'}
+2025-03-02T15:10:03.016000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-opt'}
+2025-03-02T15:10:03.016000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-opt
+2025-03-02T15:10:03.016000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:03.016000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:03.016000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-opt
+2025-03-02T15:10:03.016000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:03.016000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:03.019000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:03.586000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-opt HTTP/11" 404 440
+2025-03-02T15:10:03.586000: DEBUG : taskcluster.utils: Received HTTP Status:    404
+2025-03-02T15:10:03.586000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '440', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '6929b804ad783cf49a5d727b479a6718', 'x-for-request-id': '374340aa-459d-4807-8571-27095a0265fe', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1b8-1SwjkGcXPUbNVGH3OO/kx9XYEE8"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:03.586000: DEBUG : nothing found via route 'gecko.v2.mozilla-release.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-opt'
+2025-03-02T15:10:03.589000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-pgo'
+2025-03-02T15:10:03.589000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:03.589000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-pgo
+2025-03-02T15:10:03.589000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-pgo'}
+2025-03-02T15:10:03.589000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-pgo'}
+2025-03-02T15:10:03.589000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-pgo
+2025-03-02T15:10:03.589000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:03.589000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:03.589000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-pgo
+2025-03-02T15:10:03.589000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:03.589000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:03.592000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:04.192000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-pgo HTTP/11" 404 440
+2025-03-02T15:10:04.192000: DEBUG : taskcluster.utils: Received HTTP Status:    404
+2025-03-02T15:10:04.192000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:02 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '440', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '118d0e0a0e350656699a65d93c71c707', 'x-for-request-id': '06eb9f32-f409-4304-a51d-df7f24bb81fe', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1b8-ERrpIwGlocRWFa9QCgB5wq+Jpo8"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:04.192000: DEBUG : nothing found via route 'gecko.v2.mozilla-release.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-pgo'
+2025-03-02T15:10:04.194000: WARNING : Skipping build c35a654c5ded: Unable to find build info using the taskcluster route 'gecko.v2.mozilla-release.shippable.revision.c35a654c5ded1434ced61c2a93f6362aa2f29452.firefox.win64-opt'
+2025-03-02T15:10:04.200000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.shippable.revision.ebd119a3eba7971ff1429deb693dd3d4fc0e7cd8.firefox.win64-opt'
+2025-03-02T15:10:04.200000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:04.200000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.shippable.revision.ebd119a3eba7971ff1429deb693dd3d4fc0e7cd8.firefox.win64-opt
+2025-03-02T15:10:04.200000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.ebd119a3eba7971ff1429deb693dd3d4fc0e7cd8.firefox.win64-opt'}
+2025-03-02T15:10:04.200000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.ebd119a3eba7971ff1429deb693dd3d4fc0e7cd8.firefox.win64-opt'}
+2025-03-02T15:10:04.200000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.ebd119a3eba7971ff1429deb693dd3d4fc0e7cd8.firefox.win64-opt
+2025-03-02T15:10:04.200000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:04.200000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:04.200000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.ebd119a3eba7971ff1429deb693dd3d4fc0e7cd8.firefox.win64-opt
+2025-03-02T15:10:04.200000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:04.200000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:04.200000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:04.818000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.ebd119a3eba7971ff1429deb693dd3d4fc0e7cd8.firefox.win64-opt HTTP/11" 200 238
+2025-03-02T15:10:04.818000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:04.818000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:03 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '238', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'f71b9df998c98c0f77103856a7f96074', 'x-for-request-id': '9cda6cfd-ed81-4284-a78d-ca6b273393b8', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"ee-dW3d981qk8/3iz6Utu4g0dPOgik"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:04.821000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:04.821000: DEBUG : taskcluster.client: Found a positional argument: Yf23PYluQfiyncPJq-hWFw
+2025-03-02T15:10:04.821000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'Yf23PYluQfiyncPJq-hWFw'}
+2025-03-02T15:10:04.821000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'Yf23PYluQfiyncPJq-hWFw'}
+2025-03-02T15:10:04.821000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Yf23PYluQfiyncPJq-hWFw/status
+2025-03-02T15:10:04.821000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:04.821000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:04.821000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Yf23PYluQfiyncPJq-hWFw/status
+2025-03-02T15:10:04.821000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:04.821000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:04.823000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:05.470000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/Yf23PYluQfiyncPJq-hWFw/status HTTP/11" 200 862
+2025-03-02T15:10:05.470000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:05.470000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:03 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '862', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '29cdf5b33e67c9a2b547b168c464e872', 'x-for-request-id': '5c117ce7-d02c-4094-8015-203d6e859d82', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"35e-vTYy7kw96bI/AWNI7NnxAH5xQUI"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:05.473000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:05.473000: DEBUG : taskcluster.client: Found a positional argument: Yf23PYluQfiyncPJq-hWFw
+2025-03-02T15:10:05.473000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:10:05.473000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'Yf23PYluQfiyncPJq-hWFw', 'runId': 0}
+2025-03-02T15:10:05.473000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'Yf23PYluQfiyncPJq-hWFw', 'runId': 0}
+2025-03-02T15:10:05.473000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Yf23PYluQfiyncPJq-hWFw/runs/0/artifacts
+2025-03-02T15:10:05.473000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:05.473000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:05.473000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Yf23PYluQfiyncPJq-hWFw/runs/0/artifacts
+2025-03-02T15:10:05.473000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:05.473000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:05.473000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:06.063000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/Yf23PYluQfiyncPJq-hWFw/runs/0/artifacts HTTP/11" 200 None
+2025-03-02T15:10:06.063000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:06.063000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:04 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'a873d242a8b88ebbc3c77809fb2b936c', 'x-for-request-id': '9c0a935b-edfa-4bc0-b527-5799a0cf169e', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1bff-reS4T243iXMmP6BgZCLFuWH1+24"', 'Strict-Transport-Security': 'max-age=31536000', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+2025-03-02T15:10:06.065000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:06.065000: DEBUG : taskcluster.client: Found a positional argument: Yf23PYluQfiyncPJq-hWFw
+2025-03-02T15:10:06.065000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:10:06.065000: DEBUG : taskcluster.client: Found a positional argument: public/build/target.zip
+2025-03-02T15:10:06.065000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'Yf23PYluQfiyncPJq-hWFw', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:10:06.065000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'Yf23PYluQfiyncPJq-hWFw', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:10:06.073000: INFO : Running mozilla-release build built on 2025-01-22 18:36:03.212000, revision ebd119a3
+2025-03-02T15:10:06.092000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.shippable.revision.1ca70c72718acd8c5f91f6350ec3b8bd88dc560d.firefox.win64-opt'
+2025-03-02T15:10:06.092000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:06.092000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.shippable.revision.1ca70c72718acd8c5f91f6350ec3b8bd88dc560d.firefox.win64-opt
+2025-03-02T15:10:06.092000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.1ca70c72718acd8c5f91f6350ec3b8bd88dc560d.firefox.win64-opt'}
+2025-03-02T15:10:06.092000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.1ca70c72718acd8c5f91f6350ec3b8bd88dc560d.firefox.win64-opt'}
+2025-03-02T15:10:06.092000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.1ca70c72718acd8c5f91f6350ec3b8bd88dc560d.firefox.win64-opt
+2025-03-02T15:10:06.092000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:06.092000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:06.092000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.1ca70c72718acd8c5f91f6350ec3b8bd88dc560d.firefox.win64-opt
+2025-03-02T15:10:06.092000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:06.092000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:06.103000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:06.698000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.1ca70c72718acd8c5f91f6350ec3b8bd88dc560d.firefox.win64-opt HTTP/11" 200 238
+2025-03-02T15:10:06.698000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:06.698000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:04 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '238', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '7f2ad86e400d97afa5ccb934c6f5c71b', 'x-for-request-id': '22b88686-7487-4a99-9de3-2908a73c00e4', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"ee-GPewI3vbd7UBczioaJJlDdvxorQ"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:06.699000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:06.699000: DEBUG : taskcluster.client: Found a positional argument: Yn7UmPMxTG2OfOOTimrWEw
+2025-03-02T15:10:06.699000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'Yn7UmPMxTG2OfOOTimrWEw'}
+2025-03-02T15:10:06.699000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'Yn7UmPMxTG2OfOOTimrWEw'}
+2025-03-02T15:10:06.699000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Yn7UmPMxTG2OfOOTimrWEw/status
+2025-03-02T15:10:06.699000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:06.699000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:06.699000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Yn7UmPMxTG2OfOOTimrWEw/status
+2025-03-02T15:10:06.699000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:06.699000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:06.699000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:06.996000: INFO : Launching C:\Users\Sho\AppData\Local\Temp\tmpr_y629lm\firefox\firefox.exe
+2025-03-02T15:10:06.996000: INFO : Application command: C:\Users\Sho\AppData\Local\Temp\tmpr_y629lm\firefox\firefox.exe --wait-for-browser -profile C:\Users\Sho\AppData\Local\Temp\tmpc003rx0o.mozrunner
+2025-03-02T15:10:07.398000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/Yn7UmPMxTG2OfOOTimrWEw/status HTTP/11" 200 None
+2025-03-02T15:10:07.398000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:07.398000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:05 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '45c5984c24adb2af8c4efd1eb32fd7e6', 'x-for-request-id': '78d34b09-a94d-4be1-84da-794faef7f060', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"501-2NhwMPRoRqY2ll1V6YIjVIaLb+Q"', 'Strict-Transport-Security': 'max-age=31536000', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+2025-03-02T15:10:07.400000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:07.400000: DEBUG : taskcluster.client: Found a positional argument: Yn7UmPMxTG2OfOOTimrWEw
+2025-03-02T15:10:07.400000: DEBUG : taskcluster.client: Found a positional argument: 1
+2025-03-02T15:10:07.400000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'Yn7UmPMxTG2OfOOTimrWEw', 'runId': 1}
+2025-03-02T15:10:07.400000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'Yn7UmPMxTG2OfOOTimrWEw', 'runId': 1}
+2025-03-02T15:10:07.400000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Yn7UmPMxTG2OfOOTimrWEw/runs/1/artifacts
+2025-03-02T15:10:07.400000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:07.400000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:07.400000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Yn7UmPMxTG2OfOOTimrWEw/runs/1/artifacts
+2025-03-02T15:10:07.400000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:07.400000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:07.400000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:07.571000: INFO : application_buildid: 20250122160218
+2025-03-02T15:10:07.571000: INFO : application_changeset: ebd119a3eba7971ff1429deb693dd3d4fc0e7cd8
+2025-03-02T15:10:07.571000: INFO : application_display_name: Firefox
+2025-03-02T15:10:07.571000: INFO : application_id: {ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+2025-03-02T15:10:07.571000: INFO : application_name: Firefox
+2025-03-02T15:10:07.571000: INFO : application_remotingname: firefox
+2025-03-02T15:10:07.571000: INFO : application_repository: https://hg.mozilla.org/releases/mozilla-release
+2025-03-02T15:10:07.571000: INFO : application_vendor: Mozilla
+2025-03-02T15:10:07.571000: INFO : application_version: 134.0.3
+2025-03-02T15:10:07.571000: INFO : platform_buildid: 20250122160218
+2025-03-02T15:10:07.571000: INFO : platform_changeset: ebd119a3eba7971ff1429deb693dd3d4fc0e7cd8
+2025-03-02T15:10:07.571000: INFO : platform_repository: https://hg.mozilla.org/releases/mozilla-release
+2025-03-02T15:10:07.571000: INFO : platform_version: 134.0.3
+2025-03-02T15:10:07.979000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/Yn7UmPMxTG2OfOOTimrWEw/runs/1/artifacts HTTP/11" 200 None
+2025-03-02T15:10:07.979000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:07.979000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:06 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '2de320f0346d2b91be7365b74fee3344', 'x-for-request-id': 'f2b32662-eb35-4ce4-8cef-6044c49feecb', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1bff-s9bx/RInMpGKFRHEzoq6ViO2p60"', 'Strict-Transport-Security': 'max-age=31536000', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+2025-03-02T15:10:07.984000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:07.984000: DEBUG : taskcluster.client: Found a positional argument: Yn7UmPMxTG2OfOOTimrWEw
+2025-03-02T15:10:07.984000: DEBUG : taskcluster.client: Found a positional argument: 1
+2025-03-02T15:10:07.984000: DEBUG : taskcluster.client: Found a positional argument: public/build/target.zip
+2025-03-02T15:10:07.984000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'Yn7UmPMxTG2OfOOTimrWEw', 'runId': 1, 'name': 'public/build/target.zip'}
+2025-03-02T15:10:07.984000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'Yn7UmPMxTG2OfOOTimrWEw', 'runId': 1, 'name': 'public/build/target.zip'}
+2025-03-02T15:10:07.993000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.shippable.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-opt'
+2025-03-02T15:10:07.999000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:07.999000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.shippable.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-opt
+2025-03-02T15:10:07.999000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-opt'}
+2025-03-02T15:10:07.999000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-opt'}
+2025-03-02T15:10:07.999000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-opt
+2025-03-02T15:10:07.999000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:07.999000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:07.999000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-opt
+2025-03-02T15:10:07.999000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:07.999000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:08.004000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:08.572000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-opt HTTP/11" 404 450
+2025-03-02T15:10:08.572000: DEBUG : taskcluster.utils: Received HTTP Status:    404
+2025-03-02T15:10:08.572000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:06 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '450', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '4bc71dfef152ba95d7dc1bd816d76088', 'x-for-request-id': 'c646a6fe-971a-4a73-875a-e7135079a4f0', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1c2-vtOBFy0+Bzn4vRYecS3j0df9fQ0"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:08.572000: DEBUG : nothing found via route 'gecko.v2.mozilla-release.shippable.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-opt'
+2025-03-02T15:10:08.572000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-opt'
+2025-03-02T15:10:08.572000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:08.572000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-opt
+2025-03-02T15:10:08.572000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-opt'}
+2025-03-02T15:10:08.572000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-opt'}
+2025-03-02T15:10:08.572000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-opt
+2025-03-02T15:10:08.572000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:08.572000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:08.572000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-opt
+2025-03-02T15:10:08.572000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:08.572000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:08.577000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:09.140000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-opt HTTP/11" 404 440
+2025-03-02T15:10:09.140000: DEBUG : taskcluster.utils: Received HTTP Status:    404
+2025-03-02T15:10:09.140000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:07 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '440', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '37a770c9215f04a1295d84776c721a49', 'x-for-request-id': 'b6d3fdb5-ae1f-4607-92c5-eb00af3b0772', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1b8-vVuz8hGu5K4w9aysozDlJLwJIqQ"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:09.140000: DEBUG : nothing found via route 'gecko.v2.mozilla-release.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-opt'
+2025-03-02T15:10:09.141000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-pgo'
+2025-03-02T15:10:09.141000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:09.141000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-pgo
+2025-03-02T15:10:09.141000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-pgo'}
+2025-03-02T15:10:09.141000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-pgo'}
+2025-03-02T15:10:09.141000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-pgo
+2025-03-02T15:10:09.141000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:09.141000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:09.141000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-pgo
+2025-03-02T15:10:09.141000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:09.141000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:09.163000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:09.764000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-pgo HTTP/11" 404 440
+2025-03-02T15:10:09.764000: DEBUG : taskcluster.utils: Received HTTP Status:    404
+2025-03-02T15:10:09.764000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:08 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '440', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'b3dc8be1293faa160ce6de0118287efa', 'x-for-request-id': '03ce9dc3-1914-4592-8edf-a8b4d923a1c5', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1b8-ey4UNe5o+S97X7e/kaTVLugafAU"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:09.764000: DEBUG : nothing found via route 'gecko.v2.mozilla-release.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-pgo'
+2025-03-02T15:10:09.775000: WARNING : Skipping build c455977f9b6c: Unable to find build info using the taskcluster route 'gecko.v2.mozilla-release.shippable.revision.c455977f9b6c285c9c5ac1f9ae6b9bae5072ba84.firefox.win64-opt'
+2025-03-02T15:10:09.779000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.shippable.revision.ad89651d634a20ea7db2bd42eedab696128c289e.firefox.win64-opt'
+2025-03-02T15:10:09.779000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:09.779000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.shippable.revision.ad89651d634a20ea7db2bd42eedab696128c289e.firefox.win64-opt
+2025-03-02T15:10:09.779000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.ad89651d634a20ea7db2bd42eedab696128c289e.firefox.win64-opt'}
+2025-03-02T15:10:09.779000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.ad89651d634a20ea7db2bd42eedab696128c289e.firefox.win64-opt'}
+2025-03-02T15:10:09.779000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.ad89651d634a20ea7db2bd42eedab696128c289e.firefox.win64-opt
+2025-03-02T15:10:09.779000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:09.779000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:09.779000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.ad89651d634a20ea7db2bd42eedab696128c289e.firefox.win64-opt
+2025-03-02T15:10:09.779000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:09.779000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:09.794000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:10.354000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.ad89651d634a20ea7db2bd42eedab696128c289e.firefox.win64-opt HTTP/11" 200 238
+2025-03-02T15:10:10.354000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:10.354000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:08 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '238', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '665bc81851f6ff51acad9dea18b3221a', 'x-for-request-id': 'f8a5eae9-f17c-454f-b802-f823c723152b', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"ee-uSvTsp7CmBTcmONSgBhS4KzBLto"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:10.355000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:10.355000: DEBUG : taskcluster.client: Found a positional argument: dX-qc0vyT5Kxljuxa_sxfQ
+2025-03-02T15:10:10.355000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'dX-qc0vyT5Kxljuxa_sxfQ'}
+2025-03-02T15:10:10.355000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'dX-qc0vyT5Kxljuxa_sxfQ'}
+2025-03-02T15:10:10.355000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/dX-qc0vyT5Kxljuxa_sxfQ/status
+2025-03-02T15:10:10.355000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:10.355000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:10.355000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/dX-qc0vyT5Kxljuxa_sxfQ/status
+2025-03-02T15:10:10.355000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:10.355000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:10.355000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:10.948000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/dX-qc0vyT5Kxljuxa_sxfQ/status HTTP/11" 200 859
+2025-03-02T15:10:10.948000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:10.948000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:09 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '859', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '141e09ffa339fbd97cba101f89799028', 'x-for-request-id': '801f776c-2d1c-4865-86c5-226b24cd8cc2', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"35b-oeChTfNXuYwRDO88wHF4rGhf/rk"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:10.950000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:10.950000: DEBUG : taskcluster.client: Found a positional argument: dX-qc0vyT5Kxljuxa_sxfQ
+2025-03-02T15:10:10.950000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:10:10.950000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'dX-qc0vyT5Kxljuxa_sxfQ', 'runId': 0}
+2025-03-02T15:10:10.950000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'dX-qc0vyT5Kxljuxa_sxfQ', 'runId': 0}
+2025-03-02T15:10:10.950000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/dX-qc0vyT5Kxljuxa_sxfQ/runs/0/artifacts
+2025-03-02T15:10:10.950000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:10.950000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:10.950000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/dX-qc0vyT5Kxljuxa_sxfQ/runs/0/artifacts
+2025-03-02T15:10:10.950000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:10.950000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:10.952000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:11.518000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/dX-qc0vyT5Kxljuxa_sxfQ/runs/0/artifacts HTTP/11" 200 None
+2025-03-02T15:10:11.521000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:11.521000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:09 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'c7c03fc6362f66b54c14d41c3a577f6f', 'x-for-request-id': '6a23da40-8852-4b99-9026-2e9a2bcbcc16', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1bff-Px/9DFrJC57irr9Hf1kL3CR8oXk"', 'Strict-Transport-Security': 'max-age=31536000', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+2025-03-02T15:10:11.523000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:11.524000: DEBUG : taskcluster.client: Found a positional argument: dX-qc0vyT5Kxljuxa_sxfQ
+2025-03-02T15:10:11.524000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:10:11.524000: DEBUG : taskcluster.client: Found a positional argument: public/build/target.zip
+2025-03-02T15:10:11.524000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'dX-qc0vyT5Kxljuxa_sxfQ', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:10:11.524000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'dX-qc0vyT5Kxljuxa_sxfQ', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:10:22.264000: INFO : Narrowed integration regression window from [6d9fa1b9, 8791f258] (115 builds) to [ebd119a3, 8791f258] (58 builds) (~5 steps left)
+2025-03-02T15:10:22.264000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.shippable.revision.6b4811b8e2203bc5cbda9a8869a8852307bd10f8.firefox.win64-opt'
+2025-03-02T15:10:22.264000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:22.264000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.shippable.revision.6b4811b8e2203bc5cbda9a8869a8852307bd10f8.firefox.win64-opt
+2025-03-02T15:10:22.264000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.6b4811b8e2203bc5cbda9a8869a8852307bd10f8.firefox.win64-opt'}
+2025-03-02T15:10:22.264000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.6b4811b8e2203bc5cbda9a8869a8852307bd10f8.firefox.win64-opt'}
+2025-03-02T15:10:22.264000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.6b4811b8e2203bc5cbda9a8869a8852307bd10f8.firefox.win64-opt
+2025-03-02T15:10:22.264000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:22.264000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:22.264000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.6b4811b8e2203bc5cbda9a8869a8852307bd10f8.firefox.win64-opt
+2025-03-02T15:10:22.264000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:22.264000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:22.279000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:22.884000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.6b4811b8e2203bc5cbda9a8869a8852307bd10f8.firefox.win64-opt HTTP/11" 200 238
+2025-03-02T15:10:22.884000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:22.884000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:21 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '238', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '213f28a06ef833e984306011dfcb7305', 'x-for-request-id': 'ea46e82a-c5da-4ce6-b1db-1175761e1049', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"ee-l/ozLrK0GqWjAIxL29D51qgPzaE"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:22.886000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:22.886000: DEBUG : taskcluster.client: Found a positional argument: ZbqbFKVERFihmosNlDu4Lw
+2025-03-02T15:10:22.886000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'ZbqbFKVERFihmosNlDu4Lw'}
+2025-03-02T15:10:22.886000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'ZbqbFKVERFihmosNlDu4Lw'}
+2025-03-02T15:10:22.886000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/ZbqbFKVERFihmosNlDu4Lw/status
+2025-03-02T15:10:22.886000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:22.886000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:22.886000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/ZbqbFKVERFihmosNlDu4Lw/status
+2025-03-02T15:10:22.886000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:22.886000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:22.886000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:23.500000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/ZbqbFKVERFihmosNlDu4Lw/status HTTP/11" 200 859
+2025-03-02T15:10:23.500000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:23.500000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:21 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '859', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'a9b7e3eb7fbd9c129dbdd8c5fea62162', 'x-for-request-id': 'c6af7ecd-28ea-484c-9d3d-20e98dbe6ed6', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"35b-y3Jur+i/1+zEX2+7+ILYuuhy7nw"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:23.502000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:23.502000: DEBUG : taskcluster.client: Found a positional argument: ZbqbFKVERFihmosNlDu4Lw
+2025-03-02T15:10:23.502000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:10:23.502000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'ZbqbFKVERFihmosNlDu4Lw', 'runId': 0}
+2025-03-02T15:10:23.502000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'ZbqbFKVERFihmosNlDu4Lw', 'runId': 0}
+2025-03-02T15:10:23.502000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/ZbqbFKVERFihmosNlDu4Lw/runs/0/artifacts
+2025-03-02T15:10:23.502000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:23.502000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:23.502000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/ZbqbFKVERFihmosNlDu4Lw/runs/0/artifacts
+2025-03-02T15:10:23.503000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:23.503000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:23.503000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:24.103000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/ZbqbFKVERFihmosNlDu4Lw/runs/0/artifacts HTTP/11" 200 None
+2025-03-02T15:10:24.103000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:24.108000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:22 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '56219bc3fb7a3ae702159be90cf28c2a', 'x-for-request-id': 'ca412b95-6ba5-4e63-9442-3c37e0bd9c2c', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1bff-8l2OtBOqmTuQLO9f0A/EenOt9ZA"', 'Strict-Transport-Security': 'max-age=31536000', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+2025-03-02T15:10:24.110000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:24.110000: DEBUG : taskcluster.client: Found a positional argument: ZbqbFKVERFihmosNlDu4Lw
+2025-03-02T15:10:24.110000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:10:24.110000: DEBUG : taskcluster.client: Found a positional argument: public/build/target.zip
+2025-03-02T15:10:24.110000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'ZbqbFKVERFihmosNlDu4Lw', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:10:24.110000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'ZbqbFKVERFihmosNlDu4Lw', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:10:24.110000: INFO : Using `C:\Users\Sho\.mozilla\mozregression\persist\6b4811b8e220-shippable--mozilla-release--target.zip` as an acceptable approximated build file instead of downloading https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Yn7UmPMxTG2OfOOTimrWEw/runs/1/artifacts/public%2Fbuild%2Ftarget.zip
+2025-03-02T15:10:24.110000: INFO : Running mozilla-release build built on 2025-02-13 16:11:08.172000, revision 6b4811b8
+2025-03-02T15:10:24.110000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.shippable.revision.9c5b1e5d435c9a5b62482dccc8460b563c43511e.firefox.win64-opt'
+2025-03-02T15:10:24.110000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:24.110000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.shippable.revision.9c5b1e5d435c9a5b62482dccc8460b563c43511e.firefox.win64-opt
+2025-03-02T15:10:24.110000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.9c5b1e5d435c9a5b62482dccc8460b563c43511e.firefox.win64-opt'}
+2025-03-02T15:10:24.110000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.9c5b1e5d435c9a5b62482dccc8460b563c43511e.firefox.win64-opt'}
+2025-03-02T15:10:24.110000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.9c5b1e5d435c9a5b62482dccc8460b563c43511e.firefox.win64-opt
+2025-03-02T15:10:24.110000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:24.110000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:24.110000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.9c5b1e5d435c9a5b62482dccc8460b563c43511e.firefox.win64-opt
+2025-03-02T15:10:24.110000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:24.110000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:24.124000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:24.757000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.9c5b1e5d435c9a5b62482dccc8460b563c43511e.firefox.win64-opt HTTP/11" 200 238
+2025-03-02T15:10:24.757000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:24.757000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:23 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '238', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '363fae403e4c3afbeeebaa4d193efc32', 'x-for-request-id': 'e2407ca7-2b2c-43c3-aae8-bc27914dfda8', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"ee-/pOU1FvWZe4HR7QMtq3sbATjz4A"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:24.759000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:24.759000: DEBUG : taskcluster.client: Found a positional argument: Q5bdXYiTRyKRfieaDtWS0Q
+2025-03-02T15:10:24.759000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'Q5bdXYiTRyKRfieaDtWS0Q'}
+2025-03-02T15:10:24.759000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'Q5bdXYiTRyKRfieaDtWS0Q'}
+2025-03-02T15:10:24.759000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Q5bdXYiTRyKRfieaDtWS0Q/status
+2025-03-02T15:10:24.759000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:24.759000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:24.759000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Q5bdXYiTRyKRfieaDtWS0Q/status
+2025-03-02T15:10:24.759000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:24.759000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:24.759000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:25.025000: INFO : Launching C:\Users\Sho\AppData\Local\Temp\tmp9xn0qty2\firefox\firefox.exe
+2025-03-02T15:10:25.025000: INFO : Application command: C:\Users\Sho\AppData\Local\Temp\tmp9xn0qty2\firefox\firefox.exe --wait-for-browser -profile C:\Users\Sho\AppData\Local\Temp\tmposcyxicu.mozrunner
+2025-03-02T15:10:25.356000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/Q5bdXYiTRyKRfieaDtWS0Q/status HTTP/11" 200 None
+2025-03-02T15:10:25.356000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:25.356000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:23 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'f9185c4a9939557d2ecc32dec27fcea9', 'x-for-request-id': 'fdc6f92d-1a5a-4e13-82fb-cb5b2e683550', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"4fc-rQ7F19uORFSAGKALl+BRfaywoZM"', 'Strict-Transport-Security': 'max-age=31536000', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+2025-03-02T15:10:25.359000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:25.359000: DEBUG : taskcluster.client: Found a positional argument: Q5bdXYiTRyKRfieaDtWS0Q
+2025-03-02T15:10:25.359000: DEBUG : taskcluster.client: Found a positional argument: 1
+2025-03-02T15:10:25.359000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'Q5bdXYiTRyKRfieaDtWS0Q', 'runId': 1}
+2025-03-02T15:10:25.359000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'Q5bdXYiTRyKRfieaDtWS0Q', 'runId': 1}
+2025-03-02T15:10:25.359000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Q5bdXYiTRyKRfieaDtWS0Q/runs/1/artifacts
+2025-03-02T15:10:25.359000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:25.359000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:25.359000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Q5bdXYiTRyKRfieaDtWS0Q/runs/1/artifacts
+2025-03-02T15:10:25.359000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:25.359000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:25.368000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:25.549000: INFO : application_buildid: 20250213140034
+2025-03-02T15:10:25.549000: INFO : application_changeset: 6b4811b8e2203bc5cbda9a8869a8852307bd10f8
+2025-03-02T15:10:25.549000: INFO : application_display_name: Firefox
+2025-03-02T15:10:25.549000: INFO : application_id: {ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+2025-03-02T15:10:25.549000: INFO : application_name: Firefox
+2025-03-02T15:10:25.549000: INFO : application_remotingname: firefox
+2025-03-02T15:10:25.549000: INFO : application_repository: https://hg.mozilla.org/releases/mozilla-release
+2025-03-02T15:10:25.549000: INFO : application_vendor: Mozilla
+2025-03-02T15:10:25.549000: INFO : application_version: 135.0.1
+2025-03-02T15:10:25.549000: INFO : platform_buildid: 20250213140034
+2025-03-02T15:10:25.549000: INFO : platform_changeset: 6b4811b8e2203bc5cbda9a8869a8852307bd10f8
+2025-03-02T15:10:25.549000: INFO : platform_repository: https://hg.mozilla.org/releases/mozilla-release
+2025-03-02T15:10:25.549000: INFO : platform_version: 135.0.1
+2025-03-02T15:10:26.004000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/Q5bdXYiTRyKRfieaDtWS0Q/runs/1/artifacts HTTP/11" 200 None
+2025-03-02T15:10:26.004000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:26.004000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:24 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '4cc64084850d70997644fc943226b674', 'x-for-request-id': 'd163548f-9992-4b9c-a2f6-8fec39a01d4f', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1e2e-43YSc4kGxuR+jOhXueTybG8Ok9c"', 'Strict-Transport-Security': 'max-age=31536000', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+2025-03-02T15:10:26.010000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:26.010000: DEBUG : taskcluster.client: Found a positional argument: Q5bdXYiTRyKRfieaDtWS0Q
+2025-03-02T15:10:26.010000: DEBUG : taskcluster.client: Found a positional argument: 1
+2025-03-02T15:10:26.010000: DEBUG : taskcluster.client: Found a positional argument: public/build/target.zip
+2025-03-02T15:10:26.010000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'Q5bdXYiTRyKRfieaDtWS0Q', 'runId': 1, 'name': 'public/build/target.zip'}
+2025-03-02T15:10:26.010000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'Q5bdXYiTRyKRfieaDtWS0Q', 'runId': 1, 'name': 'public/build/target.zip'}
+2025-03-02T15:10:26.018000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.shippable.revision.0650cf0b46ea4ce69e491c37ea50f54206bea9e5.firefox.win64-opt'
+2025-03-02T15:10:26.018000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:26.018000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.shippable.revision.0650cf0b46ea4ce69e491c37ea50f54206bea9e5.firefox.win64-opt
+2025-03-02T15:10:26.018000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.0650cf0b46ea4ce69e491c37ea50f54206bea9e5.firefox.win64-opt'}
+2025-03-02T15:10:26.018000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.0650cf0b46ea4ce69e491c37ea50f54206bea9e5.firefox.win64-opt'}
+2025-03-02T15:10:26.018000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.0650cf0b46ea4ce69e491c37ea50f54206bea9e5.firefox.win64-opt
+2025-03-02T15:10:26.018000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:26.018000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:26.018000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.0650cf0b46ea4ce69e491c37ea50f54206bea9e5.firefox.win64-opt
+2025-03-02T15:10:26.018000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:26.018000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:26.018000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:26.018000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:26.608000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/Q5bdXYiTRyKRfieaDtWS0Q/runs/1/artifacts/public%2Fbuild%2Ftarget.zip HTTP/11" 303 130
+2025-03-02T15:10:26.608000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefoxci.taskcluster-artifacts.net:443
+2025-03-02T15:10:26.642000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.0650cf0b46ea4ce69e491c37ea50f54206bea9e5.firefox.win64-opt HTTP/11" 200 238
+2025-03-02T15:10:26.642000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:26.642000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:24 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '238', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '49a4844bef70e95c4e1cfd4e77a76c44', 'x-for-request-id': 'dd532034-0bdf-46eb-92e1-adc57ed93604', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"ee-VKmosUFeULkwqkC5gkqCZ7nfrDI"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:26.645000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:26.651000: DEBUG : taskcluster.client: Found a positional argument: QMpig92vQlOQrO4WHg5xVg
+2025-03-02T15:10:26.651000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'QMpig92vQlOQrO4WHg5xVg'}
+2025-03-02T15:10:26.651000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'QMpig92vQlOQrO4WHg5xVg'}
+2025-03-02T15:10:26.651000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/QMpig92vQlOQrO4WHg5xVg/status
+2025-03-02T15:10:26.651000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:26.651000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:26.651000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/QMpig92vQlOQrO4WHg5xVg/status
+2025-03-02T15:10:26.651000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:26.651000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:26.654000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:27.257000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/QMpig92vQlOQrO4WHg5xVg/status HTTP/11" 200 862
+2025-03-02T15:10:27.258000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:27.258000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:25 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '862', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'ee93f438b425c8e198057f89d3b6ea6a', 'x-for-request-id': '30c60a4d-6cd6-4730-8f80-b1c62933a648', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"35e-cKyt7AV+GBRL/L113APGvmkB2OE"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:10:27.259000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:27.259000: DEBUG : taskcluster.client: Found a positional argument: QMpig92vQlOQrO4WHg5xVg
+2025-03-02T15:10:27.259000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:10:27.259000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'QMpig92vQlOQrO4WHg5xVg', 'runId': 0}
+2025-03-02T15:10:27.259000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'QMpig92vQlOQrO4WHg5xVg', 'runId': 0}
+2025-03-02T15:10:27.259000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/QMpig92vQlOQrO4WHg5xVg/runs/0/artifacts
+2025-03-02T15:10:27.259000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:10:27.259000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:10:27.259000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/QMpig92vQlOQrO4WHg5xVg/runs/0/artifacts
+2025-03-02T15:10:27.259000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:10:27.259000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:10:27.266000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:10:27.702000: DEBUG : urllib3.connectionpool: https://firefoxci.taskcluster-artifacts.net:443 "GET /Q5bdXYiTRyKRfieaDtWS0Q/1/public/build/target.zip HTTP/11" 200 104227148
+2025-03-02T15:10:27.883000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/QMpig92vQlOQrO4WHg5xVg/runs/0/artifacts HTTP/11" 200 None
+2025-03-02T15:10:27.883000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:10:27.883000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:10:26 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '2e84c9d7f5a9c077945bdcbc0e0ddb86', 'x-for-request-id': '3f61da91-7040-45d5-a38e-c0469c8d7777', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1bff-m67+VDoHLaJ2sg8jRLZr67nmPC8"', 'Strict-Transport-Security': 'max-age=31536000', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+2025-03-02T15:10:27.883000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:10:27.883000: DEBUG : taskcluster.client: Found a positional argument: QMpig92vQlOQrO4WHg5xVg
+2025-03-02T15:10:27.883000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:10:27.883000: DEBUG : taskcluster.client: Found a positional argument: public/build/target.zip
+2025-03-02T15:10:27.883000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'QMpig92vQlOQrO4WHg5xVg', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:10:27.883000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'QMpig92vQlOQrO4WHg5xVg', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:10:28.125000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/QMpig92vQlOQrO4WHg5xVg/runs/0/artifacts/public%2Fbuild%2Ftarget.zip HTTP/11" 303 130
+2025-03-02T15:10:28.131000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (2): firefoxci.taskcluster-artifacts.net:443
+2025-03-02T15:10:29.034000: DEBUG : urllib3.connectionpool: https://firefoxci.taskcluster-artifacts.net:443 "GET /QMpig92vQlOQrO4WHg5xVg/0/public/build/target.zip HTTP/11" 200 103688003
+2025-03-02T15:11:03.833000: INFO : Narrowed integration regression window from [ebd119a3, 8791f258] (58 builds) to [6b4811b8, 8791f258] (27 builds) (~4 steps left)
+2025-03-02T15:11:03.835000: INFO : Running mozilla-release build built on 2025-02-24 19:06:41.190000, revision 9c5b1e5d
+2025-03-02T15:11:03.849000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.shippable.revision.bca7504f641c172eedd90405105956dc94070cc9.firefox.win64-opt'
+2025-03-02T15:11:03.849000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:03.849000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.shippable.revision.bca7504f641c172eedd90405105956dc94070cc9.firefox.win64-opt
+2025-03-02T15:11:03.849000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.bca7504f641c172eedd90405105956dc94070cc9.firefox.win64-opt'}
+2025-03-02T15:11:03.849000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.bca7504f641c172eedd90405105956dc94070cc9.firefox.win64-opt'}
+2025-03-02T15:11:03.849000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.bca7504f641c172eedd90405105956dc94070cc9.firefox.win64-opt
+2025-03-02T15:11:03.849000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:03.849000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:03.849000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.bca7504f641c172eedd90405105956dc94070cc9.firefox.win64-opt
+2025-03-02T15:11:03.849000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:03.849000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:03.849000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:04.553000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.bca7504f641c172eedd90405105956dc94070cc9.firefox.win64-opt HTTP/11" 200 238
+2025-03-02T15:11:04.553000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:04.553000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:02 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '238', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'aea1355b7fca232da50b8de49fb353d0', 'x-for-request-id': 'c16b2280-9196-478b-8f9d-86c03e487d6b', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"ee-zvK9/8MoGz/hVI4MSYsTSh1ZgN0"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:11:04.555000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:04.555000: DEBUG : taskcluster.client: Found a positional argument: Zdc1PYOaRMyvhwmFZPJT0w
+2025-03-02T15:11:04.555000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'Zdc1PYOaRMyvhwmFZPJT0w'}
+2025-03-02T15:11:04.555000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'Zdc1PYOaRMyvhwmFZPJT0w'}
+2025-03-02T15:11:04.555000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Zdc1PYOaRMyvhwmFZPJT0w/status
+2025-03-02T15:11:04.555000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:04.555000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:04.555000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Zdc1PYOaRMyvhwmFZPJT0w/status
+2025-03-02T15:11:04.555000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:04.555000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:04.560000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:04.764000: INFO : Launching C:\Users\Sho\AppData\Local\Temp\tmp_lpje_hl\firefox\firefox.exe
+2025-03-02T15:11:04.764000: INFO : Application command: C:\Users\Sho\AppData\Local\Temp\tmp_lpje_hl\firefox\firefox.exe --wait-for-browser -profile C:\Users\Sho\AppData\Local\Temp\tmp91o0dle6.mozrunner
+2025-03-02T15:11:05.230000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/Zdc1PYOaRMyvhwmFZPJT0w/status HTTP/11" 200 859
+2025-03-02T15:11:05.230000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:05.230000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:03 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '859', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '01dce3003a531500aeb21ede23719e63', 'x-for-request-id': '589c04ff-19ad-473b-b1d4-fc52f9ad0975', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"35b-EE9xxDRertCcpXDATB/+lB/OR3I"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:11:05.232000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:05.232000: DEBUG : taskcluster.client: Found a positional argument: Zdc1PYOaRMyvhwmFZPJT0w
+2025-03-02T15:11:05.232000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:11:05.232000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'Zdc1PYOaRMyvhwmFZPJT0w', 'runId': 0}
+2025-03-02T15:11:05.232000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'Zdc1PYOaRMyvhwmFZPJT0w', 'runId': 0}
+2025-03-02T15:11:05.232000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Zdc1PYOaRMyvhwmFZPJT0w/runs/0/artifacts
+2025-03-02T15:11:05.232000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:05.232000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:05.232000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Zdc1PYOaRMyvhwmFZPJT0w/runs/0/artifacts
+2025-03-02T15:11:05.232000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:05.232000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:05.232000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:05.326000: INFO : application_buildid: 20250224154213
+2025-03-02T15:11:05.326000: INFO : application_changeset: 9c5b1e5d435c9a5b62482dccc8460b563c43511e
+2025-03-02T15:11:05.326000: INFO : application_display_name: Firefox
+2025-03-02T15:11:05.326000: INFO : application_id: {ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+2025-03-02T15:11:05.326000: INFO : application_name: Firefox
+2025-03-02T15:11:05.326000: INFO : application_remotingname: firefox
+2025-03-02T15:11:05.326000: INFO : application_repository: https://hg.mozilla.org/releases/mozilla-release
+2025-03-02T15:11:05.326000: INFO : application_vendor: Mozilla
+2025-03-02T15:11:05.326000: INFO : application_version: 136.0
+2025-03-02T15:11:05.326000: INFO : platform_buildid: 20250224154213
+2025-03-02T15:11:05.326000: INFO : platform_changeset: 9c5b1e5d435c9a5b62482dccc8460b563c43511e
+2025-03-02T15:11:05.326000: INFO : platform_repository: https://hg.mozilla.org/releases/mozilla-release
+2025-03-02T15:11:05.326000: INFO : platform_version: 136.0
+2025-03-02T15:11:05.906000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/Zdc1PYOaRMyvhwmFZPJT0w/runs/0/artifacts HTTP/11" 200 None
+2025-03-02T15:11:05.906000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:05.906000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:04 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '4f5255cd360ea270eb5af8164f670454', 'x-for-request-id': 'a6628051-4756-4a11-b1fb-edcd96ccf7e8', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1e2e-agvhch3hB3EY/4N2ub83nAqPJzk"', 'Strict-Transport-Security': 'max-age=31536000', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+2025-03-02T15:11:05.911000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:05.911000: DEBUG : taskcluster.client: Found a positional argument: Zdc1PYOaRMyvhwmFZPJT0w
+2025-03-02T15:11:05.911000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:11:05.911000: DEBUG : taskcluster.client: Found a positional argument: public/build/target.zip
+2025-03-02T15:11:05.912000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'Zdc1PYOaRMyvhwmFZPJT0w', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:11:05.912000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'Zdc1PYOaRMyvhwmFZPJT0w', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:11:05.922000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.shippable.revision.be49797c9efd5e160ed3ba12f28fa08ab5e060af.firefox.win64-opt'
+2025-03-02T15:11:05.922000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:05.922000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.shippable.revision.be49797c9efd5e160ed3ba12f28fa08ab5e060af.firefox.win64-opt
+2025-03-02T15:11:05.928000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.be49797c9efd5e160ed3ba12f28fa08ab5e060af.firefox.win64-opt'}
+2025-03-02T15:11:05.928000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.be49797c9efd5e160ed3ba12f28fa08ab5e060af.firefox.win64-opt'}
+2025-03-02T15:11:05.928000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.be49797c9efd5e160ed3ba12f28fa08ab5e060af.firefox.win64-opt
+2025-03-02T15:11:05.928000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:05.928000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:05.928000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.be49797c9efd5e160ed3ba12f28fa08ab5e060af.firefox.win64-opt
+2025-03-02T15:11:05.928000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:05.928000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:05.929000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:06.128000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/Zdc1PYOaRMyvhwmFZPJT0w/runs/0/artifacts/public%2Fbuild%2Ftarget.zip HTTP/11" 303 130
+2025-03-02T15:11:06.515000: DEBUG : urllib3.connectionpool: https://firefoxci.taskcluster-artifacts.net:443 "GET /Zdc1PYOaRMyvhwmFZPJT0w/0/public/build/target.zip HTTP/11" 200 104120364
+2025-03-02T15:11:06.641000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.be49797c9efd5e160ed3ba12f28fa08ab5e060af.firefox.win64-opt HTTP/11" 200 238
+2025-03-02T15:11:06.641000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:06.641000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:04 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '238', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '0713993670aadecf3a081e9cb64a393c', 'x-for-request-id': '3cee04bb-18b5-4251-8b46-6cdf4b04cd29', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"ee-NC7NlRPYpQYx34QQF14hTP6D9I4"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:11:06.642000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:06.642000: DEBUG : taskcluster.client: Found a positional argument: C3ujjewbQd65i8u4XCes7Q
+2025-03-02T15:11:06.642000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'C3ujjewbQd65i8u4XCes7Q'}
+2025-03-02T15:11:06.642000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'C3ujjewbQd65i8u4XCes7Q'}
+2025-03-02T15:11:06.642000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/C3ujjewbQd65i8u4XCes7Q/status
+2025-03-02T15:11:06.642000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:06.642000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:06.642000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/C3ujjewbQd65i8u4XCes7Q/status
+2025-03-02T15:11:06.642000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:06.642000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:06.646000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:07.340000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/C3ujjewbQd65i8u4XCes7Q/status HTTP/11" 200 862
+2025-03-02T15:11:07.340000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:07.341000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:05 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '862', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '1f5ed9e51de615b5bb18be1cfd919673', 'x-for-request-id': '48687077-d77c-488b-8474-db6f27eec766', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"35e-GAWjXbj56o56jkOavtHmQZTol0M"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:11:07.342000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:07.347000: DEBUG : taskcluster.client: Found a positional argument: C3ujjewbQd65i8u4XCes7Q
+2025-03-02T15:11:07.348000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:11:07.348000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'C3ujjewbQd65i8u4XCes7Q', 'runId': 0}
+2025-03-02T15:11:07.348000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'C3ujjewbQd65i8u4XCes7Q', 'runId': 0}
+2025-03-02T15:11:07.348000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/C3ujjewbQd65i8u4XCes7Q/runs/0/artifacts
+2025-03-02T15:11:07.348000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:07.348000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:07.348000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/C3ujjewbQd65i8u4XCes7Q/runs/0/artifacts
+2025-03-02T15:11:07.348000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:07.348000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:07.351000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:12.459000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/C3ujjewbQd65i8u4XCes7Q/runs/0/artifacts HTTP/11" 200 None
+2025-03-02T15:11:12.459000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:12.459000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:10 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '60af975c412cbced9261520fff3e868f', 'x-for-request-id': '4e698672-00d4-47fd-bd19-99cfa3fe2c0a', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1bff-4T0UAxSCxJVY5uYBxPAYHafu/wc"', 'Strict-Transport-Security': 'max-age=31536000', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+2025-03-02T15:11:12.463000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:12.463000: DEBUG : taskcluster.client: Found a positional argument: C3ujjewbQd65i8u4XCes7Q
+2025-03-02T15:11:12.463000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:11:12.463000: DEBUG : taskcluster.client: Found a positional argument: public/build/target.zip
+2025-03-02T15:11:12.463000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'C3ujjewbQd65i8u4XCes7Q', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:11:12.463000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'C3ujjewbQd65i8u4XCes7Q', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:11:12.665000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/C3ujjewbQd65i8u4XCes7Q/runs/0/artifacts/public%2Fbuild%2Ftarget.zip HTTP/11" 303 130
+2025-03-02T15:11:13.173000: DEBUG : urllib3.connectionpool: https://firefoxci.taskcluster-artifacts.net:443 "GET /C3ujjewbQd65i8u4XCes7Q/0/public/build/target.zip HTTP/11" 200 103630570
+2025-03-02T15:11:26.658000: INFO : Narrowed integration regression window from [6b4811b8, 8791f258] (27 builds) to [9c5b1e5d, 8791f258] (14 builds) (~3 steps left)
+2025-03-02T15:11:26.674000: INFO : Running mozilla-release build built on 2025-02-26 23:20:36.275000, revision bca7504f
+2025-03-02T15:11:26.674000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.shippable.revision.f5ee9453f02a54c2129ac59f9cacfd6f3e7064e5.firefox.win64-opt'
+2025-03-02T15:11:26.674000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:26.674000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.shippable.revision.f5ee9453f02a54c2129ac59f9cacfd6f3e7064e5.firefox.win64-opt
+2025-03-02T15:11:26.674000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.f5ee9453f02a54c2129ac59f9cacfd6f3e7064e5.firefox.win64-opt'}
+2025-03-02T15:11:26.674000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.f5ee9453f02a54c2129ac59f9cacfd6f3e7064e5.firefox.win64-opt'}
+2025-03-02T15:11:26.674000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.f5ee9453f02a54c2129ac59f9cacfd6f3e7064e5.firefox.win64-opt
+2025-03-02T15:11:26.674000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:26.674000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:26.674000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.f5ee9453f02a54c2129ac59f9cacfd6f3e7064e5.firefox.win64-opt
+2025-03-02T15:11:26.674000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:26.674000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:26.689000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:27.589000: INFO : Launching C:\Users\Sho\AppData\Local\Temp\tmplhm_eym5\firefox\firefox.exe
+2025-03-02T15:11:27.589000: INFO : Application command: C:\Users\Sho\AppData\Local\Temp\tmplhm_eym5\firefox\firefox.exe --wait-for-browser -profile C:\Users\Sho\AppData\Local\Temp\tmp46rovh8i.mozrunner
+2025-03-02T15:11:28.216000: INFO : application_buildid: 20250226204640
+2025-03-02T15:11:28.216000: INFO : application_changeset: bca7504f641c172eedd90405105956dc94070cc9
+2025-03-02T15:11:28.216000: INFO : application_display_name: Firefox
+2025-03-02T15:11:28.216000: INFO : application_id: {ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+2025-03-02T15:11:28.216000: INFO : application_name: Firefox
+2025-03-02T15:11:28.216000: INFO : application_remotingname: firefox
+2025-03-02T15:11:28.216000: INFO : application_repository: https://hg.mozilla.org/releases/mozilla-release
+2025-03-02T15:11:28.216000: INFO : application_vendor: Mozilla
+2025-03-02T15:11:28.216000: INFO : application_version: 136.0
+2025-03-02T15:11:28.216000: INFO : platform_buildid: 20250226204640
+2025-03-02T15:11:28.216000: INFO : platform_changeset: bca7504f641c172eedd90405105956dc94070cc9
+2025-03-02T15:11:28.216000: INFO : platform_repository: https://hg.mozilla.org/releases/mozilla-release
+2025-03-02T15:11:28.216000: INFO : platform_version: 136.0
+2025-03-02T15:11:30.787000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.f5ee9453f02a54c2129ac59f9cacfd6f3e7064e5.firefox.win64-opt HTTP/11" 200 238
+2025-03-02T15:11:30.787000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:30.787000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:29 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '238', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '6f61abffc5790c45d477c7b8c0e57f89', 'x-for-request-id': 'aa229d36-2920-4585-b407-a3541033cedb', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"ee-fZJc/nt5IHj8AGfirrZA9NP4Mgo"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:11:30.789000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:30.789000: DEBUG : taskcluster.client: Found a positional argument: XfmczFqFSsC9mTZZMa-Azg
+2025-03-02T15:11:30.789000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'XfmczFqFSsC9mTZZMa-Azg'}
+2025-03-02T15:11:30.789000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'XfmczFqFSsC9mTZZMa-Azg'}
+2025-03-02T15:11:30.789000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/XfmczFqFSsC9mTZZMa-Azg/status
+2025-03-02T15:11:30.789000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:30.789000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:30.789000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/XfmczFqFSsC9mTZZMa-Azg/status
+2025-03-02T15:11:30.789000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:30.789000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:30.789000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:31.473000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/XfmczFqFSsC9mTZZMa-Azg/status HTTP/11" 200 859
+2025-03-02T15:11:31.473000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:31.473000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:29 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '859', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'a74e045da4f1f09df25a7b5ea9b43911', 'x-for-request-id': '87463ae4-308d-47ab-95a8-b7ec063ce179', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"35b-8a0J+2kl9LcMDL2RJ6aMqWcFtqo"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:11:31.474000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:31.474000: DEBUG : taskcluster.client: Found a positional argument: XfmczFqFSsC9mTZZMa-Azg
+2025-03-02T15:11:31.474000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:11:31.474000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'XfmczFqFSsC9mTZZMa-Azg', 'runId': 0}
+2025-03-02T15:11:31.474000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'XfmczFqFSsC9mTZZMa-Azg', 'runId': 0}
+2025-03-02T15:11:31.474000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/XfmczFqFSsC9mTZZMa-Azg/runs/0/artifacts
+2025-03-02T15:11:31.474000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:31.474000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:31.474000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/XfmczFqFSsC9mTZZMa-Azg/runs/0/artifacts
+2025-03-02T15:11:31.474000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:31.474000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:31.477000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:32.145000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/XfmczFqFSsC9mTZZMa-Azg/runs/0/artifacts HTTP/11" 200 None
+2025-03-02T15:11:32.145000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:32.145000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:30 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'ceea64202ec64a89872f63f04b47c989', 'x-for-request-id': '04a9678e-dce8-424a-bf36-c4737192f9a2', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1e2e-UR+0WNPFJPVpCmFMcueP+peJFXA"', 'Strict-Transport-Security': 'max-age=31536000', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+2025-03-02T15:11:32.152000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:32.152000: DEBUG : taskcluster.client: Found a positional argument: XfmczFqFSsC9mTZZMa-Azg
+2025-03-02T15:11:32.152000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:11:32.152000: DEBUG : taskcluster.client: Found a positional argument: public/build/target.zip
+2025-03-02T15:11:32.152000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'XfmczFqFSsC9mTZZMa-Azg', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:11:32.152000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'XfmczFqFSsC9mTZZMa-Azg', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:11:32.162000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.shippable.revision.55ba0ab76c5d3bfa6f0af8fdc319770a52996763.firefox.win64-opt'
+2025-03-02T15:11:32.162000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:32.165000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.shippable.revision.55ba0ab76c5d3bfa6f0af8fdc319770a52996763.firefox.win64-opt
+2025-03-02T15:11:32.166000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.55ba0ab76c5d3bfa6f0af8fdc319770a52996763.firefox.win64-opt'}
+2025-03-02T15:11:32.166000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.55ba0ab76c5d3bfa6f0af8fdc319770a52996763.firefox.win64-opt'}
+2025-03-02T15:11:32.166000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.55ba0ab76c5d3bfa6f0af8fdc319770a52996763.firefox.win64-opt
+2025-03-02T15:11:32.166000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:32.166000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:32.166000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.55ba0ab76c5d3bfa6f0af8fdc319770a52996763.firefox.win64-opt
+2025-03-02T15:11:32.166000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:32.166000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:32.172000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:32.361000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/XfmczFqFSsC9mTZZMa-Azg/runs/0/artifacts/public%2Fbuild%2Ftarget.zip HTTP/11" 303 130
+2025-03-02T15:11:32.671000: DEBUG : urllib3.connectionpool: https://firefoxci.taskcluster-artifacts.net:443 "GET /XfmczFqFSsC9mTZZMa-Azg/0/public/build/target.zip HTTP/11" 200 104033765
+2025-03-02T15:11:32.842000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.55ba0ab76c5d3bfa6f0af8fdc319770a52996763.firefox.win64-opt HTTP/11" 200 238
+2025-03-02T15:11:32.842000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:32.842000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:31 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '238', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '345c1f1d87515f5ed78f7a4bdd323ec3', 'x-for-request-id': '3f32b616-6dc4-44b7-b996-5d2bf03b3fc9', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"ee-m4uwcojHZIaqaxXwMl68XIt3Otc"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:11:32.843000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:32.844000: DEBUG : taskcluster.client: Found a positional argument: HVSrhvQCToSViSZ3j6Xhkg
+2025-03-02T15:11:32.844000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'HVSrhvQCToSViSZ3j6Xhkg'}
+2025-03-02T15:11:32.844000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'HVSrhvQCToSViSZ3j6Xhkg'}
+2025-03-02T15:11:32.844000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/HVSrhvQCToSViSZ3j6Xhkg/status
+2025-03-02T15:11:32.844000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:32.845000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:32.845000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/HVSrhvQCToSViSZ3j6Xhkg/status
+2025-03-02T15:11:32.845000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:32.845000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:32.858000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:33.573000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/HVSrhvQCToSViSZ3j6Xhkg/status HTTP/11" 200 862
+2025-03-02T15:11:33.573000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:33.573000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:31 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '862', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '5b52d91c6010c5b75b0325a211a665ee', 'x-for-request-id': 'f4b451c1-dde5-4803-b020-f91eacca27c2', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"35e-ifrARvKO5xcbM1XQ5eUFl6woW1o"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:11:33.575000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:33.575000: DEBUG : taskcluster.client: Found a positional argument: HVSrhvQCToSViSZ3j6Xhkg
+2025-03-02T15:11:33.575000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:11:33.575000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'HVSrhvQCToSViSZ3j6Xhkg', 'runId': 0}
+2025-03-02T15:11:33.575000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'HVSrhvQCToSViSZ3j6Xhkg', 'runId': 0}
+2025-03-02T15:11:33.575000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/HVSrhvQCToSViSZ3j6Xhkg/runs/0/artifacts
+2025-03-02T15:11:33.575000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:33.575000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:33.575000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/HVSrhvQCToSViSZ3j6Xhkg/runs/0/artifacts
+2025-03-02T15:11:33.575000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:33.575000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:33.579000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:34.254000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/HVSrhvQCToSViSZ3j6Xhkg/runs/0/artifacts HTTP/11" 200 None
+2025-03-02T15:11:34.254000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:34.254000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:32 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '930ee5d117e7b14e23795c71ded133a6', 'x-for-request-id': 'fa5015a7-f4d4-45a6-a93c-56a3930f5225', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1e2e-Kz3VZZnEU7ZYt4k2ShiKchaDFkQ"', 'Strict-Transport-Security': 'max-age=31536000', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+2025-03-02T15:11:34.261000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:34.261000: DEBUG : taskcluster.client: Found a positional argument: HVSrhvQCToSViSZ3j6Xhkg
+2025-03-02T15:11:34.261000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:11:34.261000: DEBUG : taskcluster.client: Found a positional argument: public/build/target.zip
+2025-03-02T15:11:34.261000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'HVSrhvQCToSViSZ3j6Xhkg', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:11:34.261000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'HVSrhvQCToSViSZ3j6Xhkg', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:11:34.469000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/HVSrhvQCToSViSZ3j6Xhkg/runs/0/artifacts/public%2Fbuild%2Ftarget.zip HTTP/11" 303 130
+2025-03-02T15:11:34.885000: DEBUG : urllib3.connectionpool: https://firefoxci.taskcluster-artifacts.net:443 "GET /HVSrhvQCToSViSZ3j6Xhkg/0/public/build/target.zip HTTP/11" 200 104015069
+2025-03-02T15:11:47.653000: INFO : Narrowed integration regression window from [9c5b1e5d, 8791f258] (14 builds) to [bca7504f, 8791f258] (7 builds) (~2 steps left)
+2025-03-02T15:11:47.669000: INFO : Running mozilla-release build built on 2025-02-26 23:56:30.695000, revision f5ee9453
+2025-03-02T15:11:47.669000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.shippable.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-opt'
+2025-03-02T15:11:47.669000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:47.669000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.shippable.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-opt
+2025-03-02T15:11:47.669000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-opt'}
+2025-03-02T15:11:47.669000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-opt'}
+2025-03-02T15:11:47.669000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-opt
+2025-03-02T15:11:47.669000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:47.669000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:47.669000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-opt
+2025-03-02T15:11:47.669000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:47.669000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:47.669000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:48.314000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-opt HTTP/11" 404 450
+2025-03-02T15:11:48.314000: DEBUG : taskcluster.utils: Received HTTP Status:    404
+2025-03-02T15:11:48.318000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:46 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '450', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '9a073e377dcaa8f9c95bc8d161a49290', 'x-for-request-id': '13eb0c90-c128-4397-ae38-e0f914c827c9', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1c2-JRWIItobu4lJA5OuaIlJ3rDLF0w"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:11:48.320000: DEBUG : nothing found via route 'gecko.v2.mozilla-release.shippable.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-opt'
+2025-03-02T15:11:48.320000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-opt'
+2025-03-02T15:11:48.320000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:48.320000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-opt
+2025-03-02T15:11:48.320000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-opt'}
+2025-03-02T15:11:48.320000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-opt'}
+2025-03-02T15:11:48.320000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-opt
+2025-03-02T15:11:48.320000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:48.320000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:48.320000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-opt
+2025-03-02T15:11:48.320000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:48.320000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:48.326000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:48.604000: INFO : Launching C:\Users\Sho\AppData\Local\Temp\tmpaj1sqvup\firefox\firefox.exe
+2025-03-02T15:11:48.614000: INFO : Application command: C:\Users\Sho\AppData\Local\Temp\tmpaj1sqvup\firefox\firefox.exe --wait-for-browser -profile C:\Users\Sho\AppData\Local\Temp\tmp3z702q9m.mozrunner
+2025-03-02T15:11:48.915000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-opt HTTP/11" 404 440
+2025-03-02T15:11:48.915000: DEBUG : taskcluster.utils: Received HTTP Status:    404
+2025-03-02T15:11:48.915000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:47 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '440', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'd82fb0ec6fbfca3eb435be258a5583d0', 'x-for-request-id': 'c04c72f5-c87a-4dbb-92cd-5ab7ce44a58f', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1b8-OBv/wlJEIw3RcmIQ3r9vlf1DjRw"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:11:48.915000: DEBUG : nothing found via route 'gecko.v2.mozilla-release.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-opt'
+2025-03-02T15:11:48.917000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-pgo'
+2025-03-02T15:11:48.917000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:48.917000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-pgo
+2025-03-02T15:11:48.917000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-pgo'}
+2025-03-02T15:11:48.917000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-pgo'}
+2025-03-02T15:11:48.917000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-pgo
+2025-03-02T15:11:48.917000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:48.917000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:48.917000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-pgo
+2025-03-02T15:11:48.917000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:48.917000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:48.917000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:49.224000: INFO : application_buildid: 20250226205257
+2025-03-02T15:11:49.224000: INFO : application_changeset: f5ee9453f02a54c2129ac59f9cacfd6f3e7064e5
+2025-03-02T15:11:49.224000: INFO : application_display_name: Firefox
+2025-03-02T15:11:49.224000: INFO : application_id: {ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+2025-03-02T15:11:49.224000: INFO : application_name: Firefox
+2025-03-02T15:11:49.224000: INFO : application_remotingname: firefox
+2025-03-02T15:11:49.224000: INFO : application_repository: https://hg.mozilla.org/releases/mozilla-release
+2025-03-02T15:11:49.224000: INFO : application_vendor: Mozilla
+2025-03-02T15:11:49.224000: INFO : application_version: 136.0
+2025-03-02T15:11:49.224000: INFO : platform_buildid: 20250226205257
+2025-03-02T15:11:49.224000: INFO : platform_changeset: f5ee9453f02a54c2129ac59f9cacfd6f3e7064e5
+2025-03-02T15:11:49.224000: INFO : platform_repository: https://hg.mozilla.org/releases/mozilla-release
+2025-03-02T15:11:49.224000: INFO : platform_version: 136.0
+2025-03-02T15:11:49.524000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-pgo HTTP/11" 404 440
+2025-03-02T15:11:49.524000: DEBUG : taskcluster.utils: Received HTTP Status:    404
+2025-03-02T15:11:49.524000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:47 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '440', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '2325a242cab2685e6876e1a89ce1cf06', 'x-for-request-id': 'd9b48943-2cc0-48f6-964f-cd31dbbc0e1c', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1b8-y7lma1QEBU8pmKPRNZ4G5KHLGJg"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:11:49.524000: DEBUG : nothing found via route 'gecko.v2.mozilla-release.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-pgo'
+2025-03-02T15:11:49.525000: WARNING : Skipping build 24c1953fd059: Unable to find build info using the taskcluster route 'gecko.v2.mozilla-release.shippable.revision.24c1953fd0596786acea19112ea02598f4aff7da.firefox.win64-opt'
+2025-03-02T15:11:49.532000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.shippable.revision.2da0b1797683d2fa353390e70080c29b97a63a91.firefox.win64-opt'
+2025-03-02T15:11:49.532000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:49.564000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.shippable.revision.2da0b1797683d2fa353390e70080c29b97a63a91.firefox.win64-opt
+2025-03-02T15:11:49.564000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.2da0b1797683d2fa353390e70080c29b97a63a91.firefox.win64-opt'}
+2025-03-02T15:11:49.564000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.2da0b1797683d2fa353390e70080c29b97a63a91.firefox.win64-opt'}
+2025-03-02T15:11:49.564000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.2da0b1797683d2fa353390e70080c29b97a63a91.firefox.win64-opt
+2025-03-02T15:11:49.564000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:49.564000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:49.564000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.2da0b1797683d2fa353390e70080c29b97a63a91.firefox.win64-opt
+2025-03-02T15:11:49.564000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:49.564000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:49.564000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:50.184000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.2da0b1797683d2fa353390e70080c29b97a63a91.firefox.win64-opt HTTP/11" 200 238
+2025-03-02T15:11:50.184000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:50.184000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:48 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '238', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '3fe01c52052933ecb3d534bfb18f44a6', 'x-for-request-id': 'bf13d301-ccec-4fbf-bf82-08d4c7beb872', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"ee-t3rjl+tcnLlD5aU0NAsgnH0BCvc"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:11:50.186000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:50.186000: DEBUG : taskcluster.client: Found a positional argument: Hyk8kWSUTsSg2hnPDyeCZg
+2025-03-02T15:11:50.186000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'Hyk8kWSUTsSg2hnPDyeCZg'}
+2025-03-02T15:11:50.186000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'Hyk8kWSUTsSg2hnPDyeCZg'}
+2025-03-02T15:11:50.186000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Hyk8kWSUTsSg2hnPDyeCZg/status
+2025-03-02T15:11:50.186000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:50.186000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:50.186000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Hyk8kWSUTsSg2hnPDyeCZg/status
+2025-03-02T15:11:50.186000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:50.186000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:50.186000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:50.784000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/Hyk8kWSUTsSg2hnPDyeCZg/status HTTP/11" 200 862
+2025-03-02T15:11:50.784000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:50.784000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:49 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '862', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '5e593fcaf9e4ce16b026b407829e5c91', 'x-for-request-id': 'a484727e-181b-4c2c-9e16-c70493b5788f', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"35e-54nz26Nabznkzy08U+wxRQhK0BI"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:11:50.785000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:50.785000: DEBUG : taskcluster.client: Found a positional argument: Hyk8kWSUTsSg2hnPDyeCZg
+2025-03-02T15:11:50.785000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:11:50.785000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'Hyk8kWSUTsSg2hnPDyeCZg', 'runId': 0}
+2025-03-02T15:11:50.785000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'Hyk8kWSUTsSg2hnPDyeCZg', 'runId': 0}
+2025-03-02T15:11:50.785000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Hyk8kWSUTsSg2hnPDyeCZg/runs/0/artifacts
+2025-03-02T15:11:50.785000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:50.785000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:50.785000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Hyk8kWSUTsSg2hnPDyeCZg/runs/0/artifacts
+2025-03-02T15:11:50.785000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:50.785000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:50.792000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:51.435000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/Hyk8kWSUTsSg2hnPDyeCZg/runs/0/artifacts HTTP/11" 200 None
+2025-03-02T15:11:51.435000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:51.435000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:49 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': '3fd564b2955e314c1f3efde6af1f2d75', 'x-for-request-id': 'a092126d-e888-4af6-b3b7-b4400a561cd8', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1e2e-fYd61lx2qRhIJHxwNpJc1Lnm8b0"', 'Strict-Transport-Security': 'max-age=31536000', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+2025-03-02T15:11:51.441000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:51.441000: DEBUG : taskcluster.client: Found a positional argument: Hyk8kWSUTsSg2hnPDyeCZg
+2025-03-02T15:11:51.441000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:11:51.441000: DEBUG : taskcluster.client: Found a positional argument: public/build/target.zip
+2025-03-02T15:11:51.441000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'Hyk8kWSUTsSg2hnPDyeCZg', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:11:51.441000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'Hyk8kWSUTsSg2hnPDyeCZg', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:11:51.441000: DEBUG : using taskcluster route 'gecko.v2.mozilla-release.shippable.revision.b151530165ab024ce8c4e2f4a433b95ea70465aa.firefox.win64-opt'
+2025-03-02T15:11:51.441000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:51.441000: DEBUG : taskcluster.client: Found a positional argument: gecko.v2.mozilla-release.shippable.revision.b151530165ab024ce8c4e2f4a433b95ea70465aa.firefox.win64-opt
+2025-03-02T15:11:51.441000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.b151530165ab024ce8c4e2f4a433b95ea70465aa.firefox.win64-opt'}
+2025-03-02T15:11:51.441000: DEBUG : taskcluster.client: After keyword arguments, we have: {'indexPath': 'gecko.v2.mozilla-release.shippable.revision.b151530165ab024ce8c4e2f4a433b95ea70465aa.firefox.win64-opt'}
+2025-03-02T15:11:51.441000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.b151530165ab024ce8c4e2f4a433b95ea70465aa.firefox.win64-opt
+2025-03-02T15:11:51.441000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:51.441000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:51.441000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.b151530165ab024ce8c4e2f4a433b95ea70465aa.firefox.win64-opt
+2025-03-02T15:11:51.441000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:51.441000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:51.450000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:51.649000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/Hyk8kWSUTsSg2hnPDyeCZg/runs/0/artifacts/public%2Fbuild%2Ftarget.zip HTTP/11" 303 130
+2025-03-02T15:11:52.037000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/index/v1/task/gecko.v2.mozilla-release.shippable.revision.b151530165ab024ce8c4e2f4a433b95ea70465aa.firefox.win64-opt HTTP/11" 200 238
+2025-03-02T15:11:52.037000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:52.037000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:50 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '238', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'b1ac3957aac85dd247a290edeba0e667', 'x-for-request-id': 'f13f7710-26e3-402d-a099-af53347eeaf5', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"ee-FUy9y3l6gY5JEVC05GEIqOJiZAI"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:11:52.039000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:52.039000: DEBUG : taskcluster.client: Found a positional argument: X_JLx655Q-W5ghcNDt9FEQ
+2025-03-02T15:11:52.039000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'X_JLx655Q-W5ghcNDt9FEQ'}
+2025-03-02T15:11:52.039000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'X_JLx655Q-W5ghcNDt9FEQ'}
+2025-03-02T15:11:52.039000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/X_JLx655Q-W5ghcNDt9FEQ/status
+2025-03-02T15:11:52.039000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:52.039000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:52.039000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/X_JLx655Q-W5ghcNDt9FEQ/status
+2025-03-02T15:11:52.039000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:52.039000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:52.043000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:52.065000: DEBUG : urllib3.connectionpool: https://firefoxci.taskcluster-artifacts.net:443 "GET /Hyk8kWSUTsSg2hnPDyeCZg/0/public/build/target.zip HTTP/11" 200 104092198
+2025-03-02T15:11:52.642000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/X_JLx655Q-W5ghcNDt9FEQ/status HTTP/11" 200 859
+2025-03-02T15:11:52.643000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:52.643000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:50 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '859', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'ce3081c41bd25950223b9254016e10c2', 'x-for-request-id': '8d47ed55-9fcd-4be0-a0c2-efcba4c16703', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"35b-yvcJFJXKvnI17TUKSIYcLr+pVBQ"', 'Strict-Transport-Security': 'max-age=31536000', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
+2025-03-02T15:11:52.643000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:52.643000: DEBUG : taskcluster.client: Found a positional argument: X_JLx655Q-W5ghcNDt9FEQ
+2025-03-02T15:11:52.643000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:11:52.643000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'X_JLx655Q-W5ghcNDt9FEQ', 'runId': 0}
+2025-03-02T15:11:52.643000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'X_JLx655Q-W5ghcNDt9FEQ', 'runId': 0}
+2025-03-02T15:11:52.644000: DEBUG : taskcluster.client: Full URL used is: https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/X_JLx655Q-W5ghcNDt9FEQ/runs/0/artifacts
+2025-03-02T15:11:52.644000: DEBUG : taskcluster.client: Not using hawk!
+2025-03-02T15:11:52.644000: DEBUG : taskcluster.client: Making attempt 0
+2025-03-02T15:11:52.644000: DEBUG : taskcluster.utils: Making a GET request to https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/X_JLx655Q-W5ghcNDt9FEQ/runs/0/artifacts
+2025-03-02T15:11:52.644000: DEBUG : taskcluster.utils: HTTP Headers: {}
+2025-03-02T15:11:52.644000: DEBUG : taskcluster.utils: HTTP Payload: None (limit 100 char)
+2025-03-02T15:11:52.650000: DEBUG : urllib3.connectionpool: Starting new HTTPS connection (1): firefox-ci-tc.services.mozilla.com:443
+2025-03-02T15:11:53.354000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/X_JLx655Q-W5ghcNDt9FEQ/runs/0/artifacts HTTP/11" 200 None
+2025-03-02T15:11:53.356000: DEBUG : taskcluster.utils: Received HTTP Status:    200
+2025-03-02T15:11:53.356000: DEBUG : taskcluster.utils: Received HTTP Headers: {'Server': 'openresty', 'Date': 'Sun, 02 Mar 2025 07:11:51 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Vary': 'Accept-Encoding', 'Content-Security-Policy': "report-uri /__cspreport__;default-src 'none';frame-ancestors 'none';", 'x-content-type-options': 'nosniff', 'x-for-trace-id': 'f527a67dc0403f107031362233f99720', 'x-for-request-id': 'fe50324b-3787-4655-a562-d35f3a201072', 'Access-Control-Allow-Origin': '*', 'Access-Control-Max-Age': '900', 'Access-Control-Allow-Methods': 'OPTIONS,GET,HEAD,POST,PUT,DELETE,TRACE,CONNECT', 'Access-Control-Request-Method': '*', 'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type,Authorization,Accept,Origin,Cache-Control', 'Cache-Control': 'no-store no-cache must-revalidate', 'ETag': 'W/"1e2e-4djdO+8wfb9J2xMciqapbfl0oFI"', 'Strict-Transport-Security': 'max-age=31536000', 'Content-Encoding': 'gzip', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+2025-03-02T15:11:53.357000: DEBUG : taskcluster.client: Using method(v1, v2, payload) calling convention
+2025-03-02T15:11:53.357000: DEBUG : taskcluster.client: Found a positional argument: X_JLx655Q-W5ghcNDt9FEQ
+2025-03-02T15:11:53.357000: DEBUG : taskcluster.client: Found a positional argument: 0
+2025-03-02T15:11:53.357000: DEBUG : taskcluster.client: Found a positional argument: public/build/target.zip
+2025-03-02T15:11:53.357000: DEBUG : taskcluster.client: After processing positional arguments, we have: {'taskId': 'X_JLx655Q-W5ghcNDt9FEQ', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:11:53.357000: DEBUG : taskcluster.client: After keyword arguments, we have: {'taskId': 'X_JLx655Q-W5ghcNDt9FEQ', 'runId': 0, 'name': 'public/build/target.zip'}
+2025-03-02T15:11:53.563000: DEBUG : urllib3.connectionpool: https://firefox-ci-tc.services.mozilla.com:443 "GET /api/queue/v1/task/X_JLx655Q-W5ghcNDt9FEQ/runs/0/artifacts/public%2Fbuild%2Ftarget.zip HTTP/11" 303 130
+2025-03-02T15:11:54.005000: DEBUG : urllib3.connectionpool: https://firefoxci.taskcluster-artifacts.net:443 "GET /X_JLx655Q-W5ghcNDt9FEQ/0/public/build/target.zip HTTP/11" 200 104615375
+2025-03-02T15:12:06.974000: INFO : Narrowed integration regression window from [bca7504f, 8791f258] (6 builds) to [f5ee9453, 8791f258] (3 builds) (~1 steps left)
+2025-03-02T15:12:06.974000: INFO : Running mozilla-release build built on 2025-02-27 15:10:32.039000, revision 2da0b179
+2025-03-02T15:12:07.875000: INFO : Launching C:\Users\Sho\AppData\Local\Temp\tmpadg2oys_\firefox\firefox.exe
+2025-03-02T15:12:07.875000: INFO : Application command: C:\Users\Sho\AppData\Local\Temp\tmpadg2oys_\firefox\firefox.exe --wait-for-browser -profile C:\Users\Sho\AppData\Local\Temp\tmpiank_zbw.mozrunner
+2025-03-02T15:12:08.415000: INFO : application_buildid: 20250227124745
+2025-03-02T15:12:08.415000: INFO : application_changeset: 2da0b1797683d2fa353390e70080c29b97a63a91
+2025-03-02T15:12:08.415000: INFO : application_display_name: Firefox
+2025-03-02T15:12:08.415000: INFO : application_id: {ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+2025-03-02T15:12:08.415000: INFO : application_name: Firefox
+2025-03-02T15:12:08.415000: INFO : application_remotingname: firefox
+2025-03-02T15:12:08.415000: INFO : application_repository: https://hg.mozilla.org/releases/mozilla-release
+2025-03-02T15:12:08.415000: INFO : application_vendor: Mozilla
+2025-03-02T15:12:08.415000: INFO : application_version: 136.0
+2025-03-02T15:12:08.415000: INFO : platform_buildid: 20250227124745
+2025-03-02T15:12:08.415000: INFO : platform_changeset: 2da0b1797683d2fa353390e70080c29b97a63a91
+2025-03-02T15:12:08.415000: INFO : platform_repository: https://hg.mozilla.org/releases/mozilla-release
+2025-03-02T15:12:08.415000: INFO : platform_version: 136.0
+2025-03-02T15:12:26.379000: INFO : Narrowed integration regression window from [f5ee9453, 8791f258] (3 builds) to [2da0b179, 8791f258] (2 builds) (~1 steps left)
+2025-03-02T15:12:26.388000: DEBUG : Starting merge handling...
+2025-03-02T15:12:26.392000: DEBUG : Using url: https://hg.mozilla.org/releases/mozilla-release/json-pushes?changeset=8791f25818d3686862a483205b36444685a25e5d&full=1
+2025-03-02T15:12:26.392000: DEBUG : redo: attempt 1/3
+2025-03-02T15:12:26.392000: DEBUG : redo: retry: calling _default_get with args: ('https://hg.mozilla.org/releases/mozilla-release/json-pushes?changeset=8791f25818d3686862a483205b36444685a25e5d&full=1',), kwargs: {}, attempt #1
+2025-03-02T15:12:26.396000: DEBUG : urllib3.connectionpool: Resetting dropped connection: hg.mozilla.org
+2025-03-02T15:12:27.453000: DEBUG : urllib3.connectionpool: https://hg.mozilla.org:443 "GET /releases/mozilla-release/json-pushes?changeset=8791f25818d3686862a483205b36444685a25e5d&full=1 HTTP/11" 200 None
+2025-03-02T15:12:27.496000: DEBUG : Found commit message:
+No bug - Tagging 2da0b1797683d2fa353390e70080c29b97a63a91 with FIREFOX-ANDROID_136_0_BUILD3 a=release CLOSED TREE DONTBUILD
+
+2025-03-02T15:12:27.496000: DEBUG : Did not find a branch, checking all integration branches
+2025-03-02T15:12:27.496000: INFO : The bisection is done.
+2025-03-02T15:12:27.498000: INFO : Stopped
